@@ -15,7 +15,7 @@ function Card({ data, reference }) {
         bounceStiffness: 100,
         bounceDamping: 30,
       }}
-      className="relative flex-shrink-0 w-60 h-72 rounded-[40px] bg-zinc-800 text-white py-10 px-8 overflow-hidden"
+      className="relative flex-shrink-0 w-60 h-72 rounded-[40px] bg-zinc-800 text-white py-10 px-8 overflow-hidden cursor-grab"
     >
       <FaRegFileAlt />
       <p className="text-sm leading-tight mt-5 font-semibold">{data.desc}</p>
